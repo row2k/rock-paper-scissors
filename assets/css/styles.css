@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/*main*/
+.main {
+  background-color: #EEE;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.main-result-win {
+
+}
+.main-result-loss {
+
+}
+.main-result-tie {
+  
+}
+/*results*/
+.results{
+  background-color: #098;
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.result{
+  color: #EEE;
+  height: 3rem;
+  width: 10rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.result p {
+  margin:0;
+  display: inline-block;
+}
+.result span {
+  display: inline-block;
+  margin-left: 1rem;
+}
+/* game */
+.game {
+  position: absolute;
+  top: 5rem;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+}
+/* plays */
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  border: 1rem solid #eee;
+  border-radius: 1rem;
+  height: 14rem;
+  width: 14rem;
+}
+.rock {
+  border-color: #dbfe87;
+}
+.paper {
+  border-color: #ffe381;
+}
+.scissors {
+  border-color: #cec288;
+}
+.play-icon {
+  height:60%;
+  width:60%;
+}
